@@ -1,0 +1,39 @@
+
+boids BOIDS BOIDS i love boids
+
+
+no boing sound
+
+
+
+
+
+
+
+
+
+
+
+
+
+old but i guess still relevent idk
+- comenteed out the saving game data process to see if that effected scene 
+	transitions
+AI (Random and FSM):
+	- add an idle animation to make the idle state more obvious?
+Gell:
+	- fix blue gell on edges keeps increasing jump force
+Level Objects:
+	- add basic wall of different massed boxes
+	- add breaking floor
+	- changing mass over time (of player? of object?)
+	- more physics materials 
+
+Known Bugs:
+	- FSM AI can sometimes stall when transitioning into moveToGelll state,
+		potentially due to targetLocation not being valid anymore, freezing
+		the AI in place and essentially breaking the moveToGell state.
+Level select:
+	- dummy levels should not display any text
+On Build:
+	- cannot press space to play level  
