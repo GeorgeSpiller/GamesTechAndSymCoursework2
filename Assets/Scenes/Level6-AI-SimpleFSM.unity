@@ -926,6 +926,146 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: musicVolume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[0]
+      value: song_whale
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[1]
+      value: song_interstellar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[2]
+      value: song_lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[3]
+      value: song_moons
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dadd56f19685746995f869dde215ad, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[0].name
+      value: Interstellar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 17eb1dd5b61bcf54e9491d37f64fc2ce, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[1].name
+      value: Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1632028cfaa1224d9fe18f1c02de5dc, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[2].name
+      value: Moons
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8532eb9078f660741a7d46796e239537, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[3].name
+      value: Whale
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8532eb9078f660741a7d46796e239537, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[2].name
+      value: song_whale
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f5dadd56f19685746995f869dde215ad, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: song_interstellar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 17eb1dd5b61bcf54e9491d37f64fc2ce, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[4].name
+      value: song_lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1632028cfaa1224d9fe18f1c02de5dc, type: 3}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[5].name
+      value: song_moons
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[0].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[1].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[2].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: music.Array.data[3].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[2].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[4].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[5].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[4].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[5].volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5305134712519892397, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
       propertyPath: m_Name
       value: AudioManager

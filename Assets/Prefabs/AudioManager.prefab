@@ -54,3 +54,29 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: s_interstellar
+    clip: {fileID: 8300000, guid: f5dadd56f19685746995f869dde215ad, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: s_lights
+    clip: {fileID: 8300000, guid: 17eb1dd5b61bcf54e9491d37f64fc2ce, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: s_moons
+    clip: {fileID: 8300000, guid: d1632028cfaa1224d9fe18f1c02de5dc, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: s_whale
+    clip: {fileID: 8300000, guid: 8532eb9078f660741a7d46796e239537, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  music:
+  - s_interstellar
+  - s_lights
+  - s_moons
+  - s_whale
+  musicVolume: 0.5

@@ -1035,6 +1035,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
+      propertyPath: minBound_y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
+      propertyPath: levelRespawn.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 924998881926477316, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1086,14 +1094,6 @@ PrefabInstance:
     - target: {fileID: 5055726365680849869, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
-      propertyPath: minBound_y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
-      propertyPath: levelRespawn.y
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
@@ -4221,6 +4221,22 @@ PrefabInstance:
     - target: {fileID: 5305134712519892395, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[4].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305134712519892396, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
+      propertyPath: sounds.Array.data[5].volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5305134712519892397, guid: c489ad0b6a6e9c347a7108fd88b72048, type: 3}
       propertyPath: m_Name
