@@ -185,99 +185,13 @@ PrefabInstance:
     - target: {fileID: 7279544154595712295, guid: 9939eb57db332cf4d9996b7429716b4e, type: 3}
       propertyPath: playerGun
       value: 
-      objectReference: {fileID: 162761581}
+      objectReference: {fileID: 1301755847}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9939eb57db332cf4d9996b7429716b4e, type: 3}
 --- !u!1 &62063804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1296074689614980841, guid: 9939eb57db332cf4d9996b7429716b4e, type: 3}
   m_PrefabInstance: {fileID: 62063803}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &162761580
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5496958331124724704, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: LevelRespawn
-      value: 
-      objectReference: {fileID: 1299711481}
-    - target: {fileID: 5496958331124724705, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -30.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.8028224
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331124724717, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331585488514, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: gellBlobRef
-      value: 
-      objectReference: {fileID: 62063804}
-    - target: {fileID: 5496958331585488525, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: GridHandeler
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496958331585488525, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: gellBlobReff
-      value: 
-      objectReference: {fileID: 62063804}
-    - target: {fileID: 5496958331585488525, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: gellSplatterReff
-      value: 
-      objectReference: {fileID: 1523867731}
-    - target: {fileID: 6238272274535945379, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-      propertyPath: respawnPlatform
-      value: 
-      objectReference: {fileID: 1299711481}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
---- !u!1 &162761581 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5496958331585488519, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-  m_PrefabInstance: {fileID: 162761580}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &225451220
 GameObject:
@@ -509,7 +423,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -639,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -865,7 +779,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -950,7 +864,7 @@ Transform:
   - {fileID: 1617086053}
   - {fileID: 1361547554}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &978244768
 PrefabInstance:
@@ -970,7 +884,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1025,6 +939,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
+--- !u!1001 &996490969
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5496958331124724704, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: LevelRespawn
+      value: 
+      objectReference: {fileID: 1299711481}
+    - target: {fileID: 5496958331124724705, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8028224
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.0444326
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331124724717, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496958331585488514, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: gellBlobRef
+      value: 
+      objectReference: {fileID: 62063804}
+    - target: {fileID: 5496958331585488525, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: gellBlobReff
+      value: 
+      objectReference: {fileID: 62063804}
+    - target: {fileID: 5496958331585488525, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: gellSplatterReff
+      value: 
+      objectReference: {fileID: 1523867731}
+    - target: {fileID: 6238272274535945379, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+      propertyPath: respawnPlatform
+      value: 
+      objectReference: {fileID: 1299711481}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
 --- !u!1001 &1173287877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1043,7 +1034,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1118,27 +1109,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
   m_PrefabInstance: {fileID: 978244768}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1277300075 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5496958331124724705, guid: 94a500a2d5619ae42be66147875e9599, type: 3}
-  m_PrefabInstance: {fileID: 162761580}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1277300083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277300075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69be7929cbcf78c4988796a2c2c94738, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelInfoText: For this level you will be facing an AI in naughts and crosses.
-    To complete the level you must beat the AI.  To move, shoot orange gell at one
-    of the 9 green boxes. Once you have made your move, press 'f' to let the AI play.
-  infoIsActive: 1
 --- !u!1001 &1299711480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,9 +1116,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
+      propertyPath: minBound_y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
+      propertyPath: levelRespawn.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 924998881926477316, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 924998881926477316, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1194,20 +1172,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelRespawn
       objectReference: {fileID: 0}
-    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
-      propertyPath: minBound_y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2435667435383452466, guid: 6e4ebd7941c3bcb498146d10ae587ddc, type: 3}
-      propertyPath: levelRespawn.y
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
 --- !u!1 &1299711481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5055726365680849869, guid: 12bf7fac0cdf3bb4da1d73b63da4222b, type: 3}
   m_PrefabInstance: {fileID: 1299711480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1301755847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5496958331585488519, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+  m_PrefabInstance: {fileID: 996490969}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1310858990
 PrefabInstance:
@@ -1227,7 +1202,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1300,7 +1275,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1520,7 +1495,7 @@ PrefabInstance:
     - target: {fileID: 3653118316922005685, guid: 4697ba7e2e3ae5d4aa28afd9ad9e9631, type: 3}
       propertyPath: playerGun
       value: 
-      objectReference: {fileID: 162761581}
+      objectReference: {fileID: 1301755847}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4697ba7e2e3ae5d4aa28afd9ad9e9631, type: 3}
 --- !u!1 &1523867731 stripped
@@ -1686,7 +1661,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1941,6 +1916,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
   m_PrefabInstance: {fileID: 1721214936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1955507030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5496958331124724705, guid: b718633c2b7c6f645b7d4871650d9f33, type: 3}
+  m_PrefabInstance: {fileID: 996490969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1955507040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955507030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69be7929cbcf78c4988796a2c2c94738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelInfoText: For this level you will be facing an AI in naughts and crosses.
+    To complete the level you must beat the AI.  To move, shoot orange gell at one
+    of the 9 green boxes. Once you have made your move, press 'f' to let the AI play.
+  infoIsActive: 1
 --- !u!1001 &2012105350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1959,7 +1955,7 @@ PrefabInstance:
     - target: {fileID: 6054905271211078268, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1277300075}
+      objectReference: {fileID: 1955507030}
     - target: {fileID: 6170203041238183402, guid: a5078cd1cb91ccb4f97b14804aeceff2, type: 3}
       propertyPath: m_RootOrder
       value: 0

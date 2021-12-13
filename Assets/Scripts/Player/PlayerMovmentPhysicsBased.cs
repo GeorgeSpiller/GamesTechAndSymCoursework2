@@ -94,16 +94,22 @@ public class PlayerMovmentPhysicsBased : MonoBehaviour
                 // orange gell movment
                 rb.AddForce(moveDirection.normalized * orangeGellMoveSpeed * movementMultiplier, ForceMode.Acceleration);
                 FindObjectOfType<AudioManager>().orangeFadeIn("orangegell");
+                if(!GetComponent<ParticleSystem>().isPlaying) 
+                {
+                    GetComponent<ParticleSystem>().Play();
+                }
             } else {
                 // normal movment
                 rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
                 FindObjectOfType<AudioManager>().orangeFadeOut("orangegell");
+                GetComponent<ParticleSystem>().Stop();
             }
         }
         else if (!isGrounded)
         {
             // if the player is in the air, reduce movment as there is much less traction
             rb.AddForce(moveDirection.normalized * airMoveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
+            GetComponent<ParticleSystem>().Stop();
         }
     }
 }
